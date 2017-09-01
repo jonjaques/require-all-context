@@ -37,7 +37,7 @@ The following directory structure
 
 produces the following object
 
-```json
+```js
 { 
   bar: ..., 
   foo: ..., 

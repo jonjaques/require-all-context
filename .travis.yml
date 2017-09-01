@@ -1,0 +1,12 @@
+language: node_js
+script: yarn test
+node_js:
+- 8
+deploy:
+  provider: npm
+  email: jaquers@gmail.com
+  skip_cleanup: true
+  on:
+    branch: master
+  api_key:
+    secure: KSqw23UFeYlgCdd4c+e1TzNaMkP1BQJ25uKRu60VC2fSAgjwMEG2gtb1LvliOJ61JFQRZxiEXULebcENkqC6l74zEoG3/Rbt2ohsctnKFb7Pkr4SnwPN0gYyHFAPJez3NOzNXNspAcND0eqZ/Z4DqqLLX6KGMlnyCmICUbf8o+Ow1a8aAAWZsgy2+RrBFyiqCaMpXtpcRdLOVifFDp+ofBRkdznz3fqqarCo2R/Q56Eeoeve7ogXUNF6uzkwsVy7P0gOan0xYg7W2yM5BQ9D/L3uqY+t11+6AhptVK+58z18v7MxEQvQBLLJ29yEbR1nNo0l0mBQB8w1OOh6lWAc3wR2Nnp51Kfeos3c4X5xE3OaSphEtHEDtmnS4pyRTlKw2rTv43+aWMot2pj9MaiGlEw/oHOm38GhBmF71YU3j72J8GyylIV93y8NbssiR4Q0Dell0SKWOlbWshwuJCdvyqKifl8qITrv0VGoG+J9CIOo2wVCggfyusl3Cf9SEvpjYKsWCj91PcV2kCzPYR964a+GurVbE6tQM7TMluiVlGBqtIEUuubd6/noYpu1+t6LmuFB/nSh0YYLgEnZc6dJ92QwVtOUMzPnpn6pLi2gXOxx81aZERSs/2D8QsHlzkwzOxdtWvh5w8JUMquiBbN++IG+8wZQx4+wcRUa4iRDClc=
